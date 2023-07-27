@@ -1,0 +1,23 @@
+#include "CSharpCharacter.h"
+ACSharpCharacter::ACSharpCharacter()
+{
+GetCapsuleComponent()->InitCapsuleSize(42.0f,96.0f);
+bUseControllerRotationPitch=false;
+bUseControllerRotationYaw=false;
+bUseControllerRotationRoll=false;
+GetCharacterMovement()->bOrientRotationToMovement=true;
+GetCharacterMovement()->RotationRate=FRotator(0.0f,640.0f,0.0f);
+GetCharacterMovement()->bConstrainToPlane=true;
+GetCharacterMovement()->bSnapToPlaneAtStart=true;
+CameraBoom=CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+CameraBoom->SetupAttachment(RootComponent);
+CameraBoom->SetUsingAbsoluteRotation(true);
+CameraBoom->TargetArmLength=800.0f;
+CameraBoom->SetRelativeRotation(FRotator(-60.0f,0.0f,0.0f));
+CameraBoom->bDoCollisionTest=false;
+TopDownCameraComponent=CreateDefaultSubobject<UCameraComponent>(TEXT("TopDownCamera"));
+TopDownCameraComponent->SetupAttachment(CameraBoom,USpringArmComponent::SocketName);
+TopDownCameraComponent->bUsePawnControlRotation=false;
+PrimaryActorTick.bCanEverTick=true;
+PrimaryActorTick.bStartWithTickEnabled=true;
+}
