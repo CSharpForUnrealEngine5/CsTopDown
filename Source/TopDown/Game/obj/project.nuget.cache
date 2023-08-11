@@ -1,8 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "2nQJBptyPA9oX3JoWkuELz/NYbGwLpr+r+og7ov52mXwF64+gI2J9Oo/OxaWmLwadz8VbZzbWPjJSDovB2VsOA==",
+  "dgSpecHash": "MH5i8Yp8nGiY/tnknqUievQg6wzcR/bLs+ddVt4Thskzzp0QOFbQc0y0sZhyINcQjH3S1VtiD692uBE1bxXJMg==",
   "success": true,
   "projectFilePath": "C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsTopDown\\Source\\TopDown\\Game\\Game.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Jerome\\.nuget\\packages\\fsharp.core\\6.0.5\\fsharp.core.6.0.5.nupkg.sha512",
+    "C:\\Users\\Jerome\\.nuget\\packages\\microsoft.codeanalysis.activepatterns\\0.9.0\\microsoft.codeanalysis.activepatterns.0.9.0.nupkg.sha512",
+    "C:\\Users\\Jerome\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\Jerome\\.nuget\\packages\\microsoft.codeanalysis.common\\4.7.0-2.final\\microsoft.codeanalysis.common.4.7.0-2.final.nupkg.sha512",
+    "C:\\Users\\Jerome\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.7.0-2.final\\microsoft.codeanalysis.csharp.4.7.0-2.final.nupkg.sha512",
+    "C:\\Users\\Jerome\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.4.0\\microsoft.codeanalysis.visualbasic.4.4.0.nupkg.sha512",
+    "C:\\Users\\Jerome\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jerome\\.nuget\\packages\\system.reflection.metadata\\7.0.0\\system.reflection.metadata.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jerome\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.VisualBasic 4.4.0 requires Microsoft.CodeAnalysis.Common (= 4.4.0) but version Microsoft.CodeAnalysis.Common 4.7.0-2.final was resolved.",
+      "libraryId": "Microsoft.CodeAnalysis.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

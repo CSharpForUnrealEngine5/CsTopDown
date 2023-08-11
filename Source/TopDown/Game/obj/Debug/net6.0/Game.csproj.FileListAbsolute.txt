@@ -49,3 +49,9 @@ C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\bin\Debug\n
 C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\bin\Debug\net6.0\GameFramework.pdb
 C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\obj\Debug\net6.0\Game.csproj.CopyComplete
 C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\obj\Debug\net6.0\ref\Game.dll
+C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\bin\Debug\net6.0\GameFramework.xml
+C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\bin\Debug\net6.0\CSharpToCpp.deps.json
+C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\bin\Debug\net6.0\CSharpToCpp.runtimeconfig.json
+C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\bin\Debug\net6.0\CSharpToCpp.exe
+C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\bin\Debug\net6.0\CSharpToCpp.dll
+C:\UnrealEngine\CSharpForUnrealEngine5\CsTopDown\Source\TopDown\Game\bin\Debug\net6.0\CSharpToCpp.pdb

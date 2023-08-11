@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Plugins\CsToCpp\Compiler\CSharpToCpp.Utilities\CSharpToCpp.Utilities.csproj" />
+    <ProjectReference Include="..\..\..\Plugins\CsToCpp\Compiler\CSharpToCpp\CSharpToCpp.fsproj" />
     <ProjectReference Include="..\..\..\Plugins\CsToCpp\Compiler\GameFramework5_2\GameFramework\GameFramework.csproj" />
   </ItemGroup>
 
