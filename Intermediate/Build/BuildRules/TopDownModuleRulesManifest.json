@@ -1,9 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsTopDown\\Source\\TopDown\\TopDown.Build.cs",
-		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsTopDown\\Plugins\\CsToCpp\\Source\\CsToCpp\\CsToCpp.Build.cs",
-		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsTopDown\\Source\\TopDown.Target.cs",
-		"C:\\UnrealEngine\\CSharpForUnrealEngine5\\CsTopDown\\Source\\TopDownEditor.Target.cs"
-	],
-	"EngineVersion": "5.2.1"
-}
